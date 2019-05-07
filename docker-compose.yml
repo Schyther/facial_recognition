@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+
+  facerecogbackend:
+    build: ./FaceRecogBackend
+    depends_on:
+      - "face_recog_db"
+    ports:
+      - 8000:8000
+
+  facerecoginterface:
+    build: ./FaceRecogInterface
+    ports:
+      - 8001:8001
+
+  face_recog_db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_USER: root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: face_recog
+    volumes:
+      - ./db_init.sql:/docker-entrypoint-initdb.d/db_init.sql
+    ports:
+      - 3306:3306

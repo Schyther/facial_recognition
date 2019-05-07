@@ -1,0 +1,6 @@
+Django==2.1.5
+mysql-connector-python==8.0.13
+dlib==19.17.0
+opencv-python==4.1.0.25
+opencv-contrib-python==4.1.0.25
+
