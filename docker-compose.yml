@@ -8,11 +8,15 @@ services:
       - "face_recog_db"
     ports:
       - 8000:8000
+    devices:
+      - /dev/video0:/dev/video0
 
   facerecoginterface:
     build: ./FaceRecogInterface
     ports:
       - 8001:8001
+    devices:
+      - /dev/video0:/dev/video0
 
   face_recog_db:
     image: mysql
