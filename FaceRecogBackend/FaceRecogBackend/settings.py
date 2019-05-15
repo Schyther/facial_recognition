@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Recognizer',
 ]
 
 MIDDLEWARE = [
@@ -83,6 +84,8 @@ DATABASES = {
         'OPTIONS': {
           'autocommit': True,
         },
+        #'HOST' : 'face_recog_db',
+        'PORT' : '3306',
     }
 }
 

@@ -11,4 +11,4 @@ COPY . .
 EXPOSE 8000/tcp
 EXPOSE 8000/udp
 
-CMD [ "python", "./manage.py", "runserver", "0.0.0.0:8000", "--noreload" ]
+#CMD [ "python", "./manage.py", "runserver", "0.0.0.0:8000", "--noreload" ]
