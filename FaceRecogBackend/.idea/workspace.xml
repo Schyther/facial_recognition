@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8f8e86d-820a-4f69-abac-bf3bc0499af2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceRecogBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceRecogBackend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceRecogBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceRecogBackend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recognizer/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recognizer/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Recognizer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Recognizer/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FaceRecogInterface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FaceRecogInterface/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FaceRecogInterface/FaceRecogInterface/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FaceRecogInterface/FaceRecogInterface/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FaceRecogInterface/Stream/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FaceRecogInterface/Stream/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FaceRecogInterface/Stream/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FaceRecogInterface/Stream/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FaceRecogInterface/templates/stream.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FaceRecogInterface/templates/stream.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Recognizer/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -76,11 +68,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Recognizer/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="405">
+              <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,8 +98,8 @@
         <option value="$PROJECT_DIR$/FaceRecogBackend/settings.py" />
         <option value="$PROJECT_DIR$/FaceRecogBackend/urls.py" />
         <option value="$PROJECT_DIR$/Recognizer/models.py" />
-        <option value="$PROJECT_DIR$/Recognizer/views.py" />
         <option value="$PROJECT_DIR$/Recognizer/urls.py" />
+        <option value="$PROJECT_DIR$/Recognizer/views.py" />
       </list>
     </option>
   </component>
@@ -202,12 +197,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557268879075</updated>
       <workItem from="1557268882729" duration="3352000" />
-      <workItem from="1557873967604" duration="6888000" />
+      <workItem from="1557873967604" duration="7857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10240000" />
+    <option name="totallyTimeSpent" value="11209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -264,13 +259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recognizer/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FaceRecogBackend/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -281,9 +269,19 @@
     <entry file="file://$PROJECT_DIR$/Recognizer/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Recognizer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

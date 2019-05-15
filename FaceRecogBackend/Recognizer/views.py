@@ -4,6 +4,7 @@ from Recognizer.models import User
 
 import face_recognition
 import numpy as np
+import base64
 
 # Create your views here.
 def return_database_info():
@@ -20,7 +21,11 @@ def return_database_info():
 
 def return_recognition_result(request, face_encoding):
     known_names , known_face_encodings = return_database_info()
-    face_encoding = np.fromstring(face_encoding, sep='@')
+
+    decoded_face_encoding = base64.decode(face_encoding)
+    decoded_face_encoding = decoded_face_encoding.decode()
+
+    face_encoding = np.fromstring(decoded_face_encoding, sep='@')
 
     matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
     name = "Unknown"

@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eb782632-7115-417e-b9c8-87b381e46763" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../FaceRecogBackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FaceRecogBackend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FaceRecogBackend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../FaceRecogBackend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FaceRecogBackend/FaceRecogBackend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FaceRecogBackend/FaceRecogBackend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FaceRecogBackend/FaceRecogBackend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FaceRecogBackend/FaceRecogBackend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FaceRecogBackend/Recognizer/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FaceRecogBackend/Recognizer/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FaceRecogBackend/Recognizer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FaceRecogBackend/Recognizer/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FaceRecogInterface/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FaceRecogInterface/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stream/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stream/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Stream/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stream/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/stream.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/stream.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Stream/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+            <state relative-caret-position="405">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -213,12 +204,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557268815174</updated>
       <workItem from="1557268826365" duration="5120000" />
-      <workItem from="1557868353023" duration="7134000" />
+      <workItem from="1557868353023" duration="7863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12254000" />
+    <option name="totallyTimeSpent" value="12983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -311,8 +302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Stream/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        <state relative-caret-position="405">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

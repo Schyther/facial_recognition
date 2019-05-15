@@ -6,6 +6,7 @@ from camera import Camera
 import face_recognition
 import requests
 import re
+import base64
 
 request_database_url = 'http://localhost:8000/recognize/recog/'
 true_frame = []
@@ -30,9 +31,12 @@ def request_recognition(request):
             if string != '':
                 end_string += string + '@'
 
+        data_stream = end_string.encode("utf-8")
+        end_string = base64.b64encode(data_stream)
+
         print(end_string)
 
-        req = requests.get(request_database_url + end_string).json()
+        req = requests.get(request_database_url + end_string + '/').json()
         identity = response['identity'] = req['identity']
     else:
         response['identity'] = 'Error'
